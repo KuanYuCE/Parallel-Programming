@@ -1,0 +1,15 @@
+diff --git a/Makefile b/Makefile
+index 1f6e5eb..46298fa 100644
+--- a/Makefile
++++ b/Makefile
+@@ -1,8 +1,8 @@
+ CXX := g++
+ CXXFLAGS := -O3 -std=c++17 -Wall
+ 
+-ifneq ($(VECTOR_SIZE),)
+-	CXXFLAGS += -DVECTOR_SIZE=$(VECTOR_SIZE)
++ifneq ($(VECTOR_WIDTH),)
++	CXXFLAGS += -DVECTOR_WIDTH=$(VECTOR_WIDTH)
+ endif
+ 
+ all: myexp
