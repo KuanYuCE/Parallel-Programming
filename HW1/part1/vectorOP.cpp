@@ -62,7 +62,8 @@ void clampedExpVector(float *values, int *exponents, float *output, int N)
   int padding_count = N % VECTOR_WIDTH;
   int total_iterations = 0;
   int full_iterations = N / VECTOR_WIDTH;
-
+  
+  // TODO: 改成使用memset去初始化
   float *vectorOnes = new float[N];
   float *upperBoundVec = new float[N];
   for (int i = 0; i < N; ++i) {
