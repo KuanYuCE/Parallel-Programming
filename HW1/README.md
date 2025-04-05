@@ -137,9 +137,11 @@ It requires the memory operand to be aligned a 32-byte (for YMM registers) bound
 ---
 
 vectorization without `AVX2`
+
 ![image](https://hackmd.io/_uploads/BJU3WI_2yg.png)
 
 vectorization with `AVX2` enabled
+
 ![image](https://hackmd.io/_uploads/H1JRkUdnyg.png)
 
 By looking at the assembly code, we can observe that `AVX2` utilizes `YMM` registers, which are **256-bit wide** registers. In contrast, the program that does not use the `AVX2` instruction set operates with `XMM` registers, which are the standard **128-bit wide** registers used by the `SSE` instruction set and our PP machine.
