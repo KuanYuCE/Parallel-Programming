@@ -1,6 +1,4 @@
-:::info
-:bulb: This article primarily aims to document and respond to insights and questions that arise during the assignment solving process.
-:::
+# Parallel Programming 2025 Spring @ NYCU - HW2
 
 ### :pencil2: Q1: Plot a graph of speedup as a function of the number of threads used for VIEW 1. Is the speedup linear to the number of threads used? Hypothesize why this is (or is not) the case.
 ---
