@@ -1,9 +1,5 @@
 # Parallel Programming 2025 Spring @ NYCU - HW1
 
-:::info
-:bulb: This article primarily aims to document and respond to insights and questions that arise during the assignment solving process.
-:::
-
 ### :pencil2: Q1-1: Does the vector utilization increase, decrease or stay the same as VECTOR_WIDTH changes? Why?
 ---
 VECTOR_WIDTH = 2
